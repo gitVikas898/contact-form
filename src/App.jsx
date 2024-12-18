@@ -3,12 +3,12 @@ import "./App.css";
 function App() {
   return (
     <>
-      <div className="min-h-screen grid place-items-center bg-primaryGreenLighter ">
-        <div className="bg-neutralWhite p-8 rounded-lg">
+      <div className=" font-karla min-h-screen grid place-items-center bg-primaryGreenLighter ">
+        <div className="bg-neutralWhite p-6 rounded-lg">
           <form action="" className="flex flex-col gap-1">
-            <h1>Contact Us</h1>
-            <div id="Name Box" className="flex gap-4">
-              <div className="flex flex-col gap-2">
+            <h1 className="font-bold text-xl">Contact Us</h1>
+            <div id="Name Box" className="flex items-center justify-between gap-4">
+              <div className="flex flex-col gap-1">
                 <label htmlFor="Name" className="">
                   First Name
                 </label>
@@ -30,7 +30,7 @@ function App() {
                 <p>Error Message Here</p>
               </div>
             </div>
-            <div id="email-box" className="flex flex-col gap-3">
+            <div id="email-box" className="flex flex-col gap-1">
               <label htmlFor="Email">Email</label>
               <input
                 type="email"
@@ -39,7 +39,7 @@ function App() {
               ></input>
               <p>Error Message Here</p>
             </div>
-            <div id="query-type" className="flex flex-col gap-3">
+            <div id="query-type" className="flex flex-col gap-1">
               <p>Query type</p>
               <div className="flex gap-5">
                 <div
@@ -64,7 +64,7 @@ function App() {
               </div>
               <p>Error Message Here</p>
             </div>
-            <div id="message-box">
+            <div id="message-box" className="flex flex-col  gap-1">
               <p>Message</p>
               <textarea
                 className="w-full p-4 border border-grey500 rounded-md outline-none"
